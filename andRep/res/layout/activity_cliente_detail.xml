@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/nome"
+        android:width="100dp" />
+
+    <LinearLayout
+        android:id="@+id/l7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FF8D8D8D" >
+
+        <Button
+            android:id="@+id/btgravar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onGravar"
+            android:text="@string/novo" />
+
+        <Button
+            android:id="@+id/btcancelar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onCancelar"
+            android:text="@string/menu_settings" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txt_morada"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/txt_morada"
+        android:padding="5dp"
+        android:text="@string/morada"
+        android:width="100dp" />
+
+    <EditText
+        android:id="@+id/txt_nome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Reparações</string>
+    <string name="menu_settings">Menu</string>
+    <string name="title_activity_main">Reparações</string>
+    <string name="btClientes">Clientes</string>
+    <string name="btMaquinas">Máquinas</string>
+    <string name="btReparacoes">Reparações</string>
+    <string name="novo">Novo</string>
+    <string name="save">Gravar</string>
+    <string name="voltar">Voltar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="lista">Lista</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="nome">Nome</string>
+    <string name="morada">Morada</string>
+    <string name="cp">Cp</string>
+    <string name="cp_local">Cp Local</string>
+    <string name="tlm">Tlm</string>
+    <string name="email">Email</string>
+    
+    <string name="title_activity_clientes">ClientesActivity</string>
+    <string name="title_activity_maquinas">MaquinasActivity</string>
+    <string name="title_activity_reparacoes">ReparacoesActivity</string>
+    <string name="title_activity_cliente_detail">ClienteDetailActivity</string>
+
+</resources>
